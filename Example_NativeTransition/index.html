@@ -8,9 +8,51 @@
     <script src="cordova.js"></script>
     <script src="kendo/js/jquery.min.js"></script>
     <script src="kendo/js/kendo.mobile.min.js"></script>
-    
+    <script src="script/app.js"></script>
+    <script src="script/main.js"></script>
 </head>
 <body>
+    <div data-role="view" id="home" data-title="Home Page" data-layout="homepage" data-model="app.main">
+        <div data-role="content">
+           <div style="width:70%;height:auto;margin:0px auto;margin-top:50px;">
+               <h3>Slide Transition</h3>
+               <p>
+                   <a data-role="button" style="width:100%" data-bind="click:slideLeft">Slide</a>
+               </p>
+               
+               <h3>Flip Transition</h3>
+               <p>
+                   <a data-role="button" style="width:100%" data-bind="click:btnFlip">Flip</a>
+               </p>
+           </div>
+        </div>
+    </div>
     
+    <div data-role="view" id="child" data-title="Child Page" data-layout="childpage" data-model="app.main">
+        <div data-role="content">
+           <div style="width:70%;height:auto;margin:0px auto;margin-top:50px;">
+               <p>
+                   <a data-role="button" style="width:100%" data-bind="click:slideRight">back</a>
+               </p>
+           </div>
+        </div>
+    </div>
+    
+    <div data-role="layout" data-id="homepage">
+        <div data-role="header">
+            <div data-role="navbar">
+               <!-- <a data-role="button" data-align="right">Setting</a>-->
+                <span data-role="view-title"></span>
+            </div>
+        </div>
+    </div>
+    
+    <div data-role="layout" data-id="childpage">
+        <div data-role="header">
+            <div data-role="navbar">
+                <span data-role="view-title"></span>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
