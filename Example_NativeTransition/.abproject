@@ -1,0 +1,37 @@
+{
+  "ProjectName": "Example_NativeTransition",
+  "ProjectGuid": "6fa0ff06-5626-429d-929d-3c1a9424a4f3",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.ExampleNativeTransition",
+  "DisplayName": "Example_NativeTransition",
+  "Author": "",
+  "Description": "",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.5.0",
+  "AndroidPermissions": [],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "false",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{70b83ecc-9fec-415b-b5f5-750a81def8c6}",
+  "WP8ProductID": "{bc6bafd4-567b-484a-9f29-4d39b8ca21fd}",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}
